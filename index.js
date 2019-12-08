@@ -288,7 +288,7 @@ var zAdder = 0.04;
       var s = 0.06; //tingkat shininess
 
       // var lightPosition = [0., 0., -1.];
-      var ambientColor = glMatrix.vec3.fromValues(0.17, 0.41, 0.19);
+      var ambientColor = glMatrix.vec3.fromValues(0.17, 0.40, 0.19);
       // var ambientColor = glMatrix.vec3.fromValues(0.6, 0.7, 0.2);
       gl.uniform3fv(lightColorLoc, lightColor);
       gl.uniform3fv(lightPositionLoc, lightPosition);
